@@ -99,7 +99,7 @@
                 "padding": "10,1",
                 "source": "Windows.Terminal.PowershellCore",
                 "useAcrylic": true,
-                "commandline": "pwsh  -Noexit -c \"write-host Hello\""
+                "commandline": "pwsh  -Noexit -c \". 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Auxiliary\\Build\\vcvars32.bat'\""
             },
             {
                 "acrylicOpacity": 0.69999999999999996,
