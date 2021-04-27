@@ -84,11 +84,22 @@
         "list": 
         [
             {
-                "commandline": "powershell.exe",
+                "acrylicOpacity": 0.69999999999999996,
+                "backgroundImage": "C:/Users/fish/Pictures/EzI2oVpVIAQKEyr.jpg",
+                "backgroundImageAlignment": "center",
+                "backgroundImageOpacity": 0.10000000000000001,
+                "backgroundImageStretchMode": "none",
+                "colorScheme": "Fish",
+                "cursorShape": "vintage",
                 "fontFace": "CaskaydiaCove NF",
-                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "fontSize": 13,
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
-                "name": "Windows PowerShell"
+                "name": "PowerShell",
+                "padding": "10,1",
+                "source": "Windows.Terminal.PowershellCore",
+                "useAcrylic": true,
+                "commandline": "pwsh  -Noexit -c \"write-host Hello\""
             },
             {
                 "acrylicOpacity": 0.69999999999999996,
